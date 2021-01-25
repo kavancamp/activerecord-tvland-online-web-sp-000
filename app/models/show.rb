@@ -8,6 +8,6 @@ class Show < ActiveRecord::Base
       end
 
     def actors_list
-    self.actors.collect {|actor| "#{actor.full_name} "}
+    self.actors.collect {|actor| "#{actor.full_name}"}
   end
 end
